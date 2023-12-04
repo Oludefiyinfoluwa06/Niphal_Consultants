@@ -43,10 +43,10 @@ nav {
     gap: 2rem;
     padding: 20px;
     background: var(--gold--color);
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 nav .links {
