@@ -88,6 +88,14 @@ nav .links li:nth-child(5) {
     color: var(--white--color);
 }
 
+.nc-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 1.3rem;
+}
+
 /* Main Content */
 /* Header */
 main .header {
@@ -306,13 +314,13 @@ footer .top-footer {
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
+        gap: 0;
         padding: 20px;
         line-height: 40px;
         position: absolute;
         top: 97px;
         right: -100%;
         background: rgba(0,0,0,0.65);
-        /* height: calc(100vh - 97px); */
         border-radius: 15px 0 0 15px;
         transition: .5s;
     }
